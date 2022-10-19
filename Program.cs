@@ -1,22 +1,31 @@
 ﻿using System;
-namespace uppgift_4._22
+using System.Runtime.CompilerServices;
+
+namespace uppgift_4._23
 {
     class program
     {
         static void Main(string[] args)
         {
-            for (int i = 10; i < 31; i++)
+            int nn = 0;
+            while (true)
             {
-                Console.WriteLine(i);
+                Console.WriteLine("Write another number if you want or just press n to stop.");
+                string ch = Console.ReadLine();
+                if (ch == "n")
+                {
+                    break;
+                }
+                else 
+                {
+
+                }
+                if (int.Parse(ch) > nn)
+                {
+                    nn = int.Parse(ch);
+                }
             }
-            for (int i = 200; i >= 180; i--)
-            {
-                Console.WriteLine(i);
-            }
-            for (int i = 1000; i <= 1400; i+= 50)
-            {
-                Console.WriteLine(i);
-            }
+            Console.WriteLine($"the biggest number you wrote is {nn}.");
         }
     }
 }
