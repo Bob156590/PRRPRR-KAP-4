@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace uppgift_4._25
+namespace uppgift_4._26
 {
     class program
     {
