@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Runtime.CompilerServices;
-
 namespace uppgift_4._23
 {
     class program
