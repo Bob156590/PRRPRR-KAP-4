@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace uppgift_4._24
 {
@@ -8,20 +8,17 @@ namespace uppgift_4._24
         {
             for (int i = 1; i < 101; i++)
             {
-                if (i % 3 == 0)
+                if (i % 3 == 0 && i % 5 !=0)
                 {
                     Console.WriteLine("Fizz");
-                    continue;
                 }
-                else if (i % 5 == 0)
+                else if (i % 5 == 0 && i % 3 != 0)
                 {
                     Console.WriteLine("Buzz");
-                    continue;
                 }
                 else if (i % 3 == 0 && i % 5 == 0)
                 {
                     Console.WriteLine("FuzzBuzz");
-                    continue;
                 }
                 else
                 {
