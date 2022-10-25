@@ -23,7 +23,10 @@ namespace uppgift_4._24
                     Console.WriteLine("FuzzBuzz");
                     continue;
                 }
-                Console.WriteLine(i);
+                else
+                {
+                    Console.WriteLine(i);
+                }
             }
         }
     }
